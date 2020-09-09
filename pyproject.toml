@@ -1,0 +1,17 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
+
+[tool]
+[tool.poetry]
+authors = ["Your Name <you@example.com>"]
+description = "High ping server destroyer"
+name = "ex0cutioner"
+version = "0.1.0"
+[tool.poetry.dependencies]
+colorama = "^0.4.3"
+discord = "^1.0.1"
+flask = "^1.1.2"
+python = "^3.8"
+termcolor = "^1.1.0"
+[tool.poetry.dev-dependencies]
